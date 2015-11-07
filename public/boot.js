@@ -8,4 +8,14 @@ var Flappy.Boot = function () {};
 
 Flappy.Boot.prototype = {
 
+  init: function () {
+  };
+
+  preload: function () {
+  };
+
+  create: function () {
+    this.game.stage.backgroundColor = "cyan";
+  };
+
 };
