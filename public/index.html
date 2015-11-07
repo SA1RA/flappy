@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="veiwport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalabele=no">
+    <title>flappybird space<\title>
+    <style>
+      body {
+        background: black;
+        padding: 0px;
+        margin: 0px;
+      }
+    <\style>
+  <\head>
+
+  <body>
+
+    <script> src="js/phaser.js"<\script>
+    <script> src="js/boot.js"<\script>
+      <script>
+        var game = new phaser.Game(320,568);
+        game.state.add('boot', Flappy.Boot);
+        game.state.start.('boot');
+      <\script>
+
+  <\body>
+
+<\html>
